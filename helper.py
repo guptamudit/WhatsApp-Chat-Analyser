@@ -2,10 +2,6 @@ from urlextract import URLExtract
 import pandas as pd
 from collections import Counter
 import emoji
-import re
-import regex
-import streamlit as st
-from datetime import datetime
 from wordcloud import WordCloud
 
 def fetchStats(selectedUser, dataFrame):
